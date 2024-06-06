@@ -1,0 +1,26 @@
+body{
+    background: #E4E2D9;
+}
+
+
+.box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 10% auto 0;
+    box-shadow: 22px 19px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box img{
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    transition: opacity 1s ease-in-out;
+}
+
+.box img.front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
